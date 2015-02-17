@@ -22,7 +22,7 @@ end
 
 
 def first_three_celebrities_with_each(celebs)
-
+  celebs.each {|c| c}.first(3)
 end
 
 
