@@ -8,7 +8,9 @@ end
 
 
 def name_lengths(celebs)
-
+  celebs.map do |celeb|
+    celeb.length
+  end
 end
 
 
