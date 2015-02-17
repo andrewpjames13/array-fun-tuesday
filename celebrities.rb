@@ -15,7 +15,9 @@ end
 
 
 def reverse_celebrity_names(celebs)
-
+  celebs.map do |c|
+    c.reverse
+  end
 end
 
 
