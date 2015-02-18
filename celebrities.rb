@@ -32,7 +32,9 @@ end
 
 
 def reverse_case_celebrities_names(celebs)
-
+  celebs.map do |c|
+    c.swapcase
+  end
 end
 
 
